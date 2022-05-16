@@ -1,5 +1,7 @@
 import json
+from operator import index
 import os
+import pandas as pd
 class Manipulador_archivos:
     
     def __init__(self):
@@ -11,6 +13,10 @@ class Manipulador_archivos:
         with open(ruta_archivo, 'r') as file:
             archivo_json = json.load(file)
         return archivo_json
+    
+    def exportar_resultado(self, dataframe):
+        dataframe.to_excel('resultado.xlsx')
+        dataframe.to_csv('resultado.csv', index=False, sep='-')
         
 
 
