@@ -1,0 +1,25 @@
+{
+    "eventos": {
+        "llegada_cliente"   : true,
+        "fin_servicio"      : true,
+        "comienzo_descanso" : true,
+        "vuelta_trabajo"    : true,
+        "abandono_cola"     : true
+    },
+    "variables": {
+        "hora_actual"            : "9:00:32",
+        "hora_llegada"           : "9:00:49",
+        "hora_fin_servicio"      : "9:01:07",
+        "hora_comienzo_descanso" : "9:01:09",
+        "hora_vuelta_trabajo"    : "23:59:59",
+        "hora_abandono"          : "23:59:59",
+        "duracion_servicio"      : 30,
+        "tiempo_llegada"         : 10,
+        "tiempo_abandono"        : 2,
+        "duracion_descanso"      : 30,
+        "tiempo_trabajo"         : 30,
+        "Q"                      : 0,
+        "PS"                     : 1,
+        "S"                      : 1
+    }
+}
